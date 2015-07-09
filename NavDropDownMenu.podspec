@@ -1,7 +1,7 @@
 #NavDropDownMenu.podspec
 Pod::Spec.new do |s|
   s.name         = "NavDropDownMenu"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "One Navigation bar Drop Down List Menu."
 
   s.homepage     = "https://github.com/hanyegudeng/navDropDownMenu.git"
