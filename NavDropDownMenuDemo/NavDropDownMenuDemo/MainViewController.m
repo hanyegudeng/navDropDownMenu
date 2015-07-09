@@ -22,7 +22,9 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStyleDone target:self action:@selector(showMenu)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Right" style:UIBarButtonItemStyleDone target:self action:@selector(showMenuRight)];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Left" style:UIBarButtonItemStyleDone target:self action:@selector(showMenuLeft)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,9 +32,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)showMenu{
+- (void)showMenuLeft{
     self.dropDownMenu.menuContentView = self.menu.view;
     [self.dropDownMenu showInView:self.view withFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height*0.5)];
+}
+
+- (void)showMenuRight{
+    self.dropDownMenu.menuContentView = self.menu.view;
+    [self.dropDownMenu showInView:self.view withFrame:CGRectMake(self.view.frame.size.width*0.5, 64, self.view.frame.size.width*0.5, self.view.frame.size.height*0.5)];
 }
 
 #pragma mark Getter

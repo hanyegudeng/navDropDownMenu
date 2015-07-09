@@ -1,4 +1,5 @@
 # NavDropDownMenu
+![](./menu.gif)
 方便处理从NavigationBar下弹出菜单，菜单是自己定义的view，使用方便，pod安装即可。
 `pod 'NavDropDownMenu'`
 
@@ -24,7 +25,6 @@
     return _menu;
 }
 ```
-
 
 
 
