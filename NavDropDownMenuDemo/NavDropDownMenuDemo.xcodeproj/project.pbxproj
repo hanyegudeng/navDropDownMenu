@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE09C3941B4E0DB000385935 /* NavDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AE09C3931B4E0DB000385935 /* NavDropDownMenu.m */; };
 		AEEC6D281B4D1F6E0004F4D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC6D271B4D1F6E0004F4D4 /* main.m */; };
 		AEEC6D2B1B4D1F6E0004F4D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC6D2A1B4D1F6E0004F4D4 /* AppDelegate.m */; };
 		AEEC6D331B4D1F6E0004F4D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEC6D321B4D1F6E0004F4D4 /* Images.xcassets */; };
 		AEEC6D361B4D1F6E0004F4D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC6D341B4D1F6E0004F4D4 /* LaunchScreen.xib */; };
-		AEEC6D4E1B4D1FC80004F4D4 /* NavDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC6D4D1B4D1FC80004F4D4 /* NavDropDownMenu.m */; };
 		AEEC6D511B4D1FF60004F4D4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC6D501B4D1FF60004F4D4 /* MainViewController.m */; };
 		AEEC6D571B4D20190004F4D4 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC6D561B4D20190004F4D4 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE09C3921B4E0DB000385935 /* NavDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDropDownMenu.h; sourceTree = "<group>"; };
+		AE09C3931B4E0DB000385935 /* NavDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDropDownMenu.m; sourceTree = "<group>"; };
 		AEEC6D221B4D1F6E0004F4D4 /* NavDropDownMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavDropDownMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEC6D261B4D1F6E0004F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEEC6D271B4D1F6E0004F4D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -24,8 +26,6 @@
 		AEEC6D2A1B4D1F6E0004F4D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AEEC6D321B4D1F6E0004F4D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AEEC6D351B4D1F6E0004F4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AEEC6D4C1B4D1FC80004F4D4 /* NavDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavDropDownMenu.h; sourceTree = "<group>"; };
-		AEEC6D4D1B4D1FC80004F4D4 /* NavDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavDropDownMenu.m; sourceTree = "<group>"; };
 		AEEC6D4F1B4D1FF60004F4D4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		AEEC6D501B4D1FF60004F4D4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		AEEC6D551B4D20190004F4D4 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
@@ -43,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE09C3911B4E0DB000385935 /* NavDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AE09C3921B4E0DB000385935 /* NavDropDownMenu.h */,
+				AE09C3931B4E0DB000385935 /* NavDropDownMenu.m */,
+			);
+			name = NavDropDownMenu;
+			path = ../../NavDropDownMenu;
+			sourceTree = "<group>";
+		};
 		AEEC6D191B4D1F6E0004F4D4 = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +72,7 @@
 		AEEC6D241B4D1F6E0004F4D4 /* NavDropDownMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AEEC6D4B1B4D1FC80004F4D4 /* NavDropDownMenu */,
+				AE09C3911B4E0DB000385935 /* NavDropDownMenu */,
 				AEEC6D291B4D1F6E0004F4D4 /* AppDelegate.h */,
 				AEEC6D2A1B4D1F6E0004F4D4 /* AppDelegate.m */,
 				AEEC6D4F1B4D1FF60004F4D4 /* MainViewController.h */,
@@ -83,15 +93,6 @@
 				AEEC6D271B4D1F6E0004F4D4 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AEEC6D4B1B4D1FC80004F4D4 /* NavDropDownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				AEEC6D4C1B4D1FC80004F4D4 /* NavDropDownMenu.h */,
-				AEEC6D4D1B4D1FC80004F4D4 /* NavDropDownMenu.m */,
-			);
-			path = NavDropDownMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +166,8 @@
 			files = (
 				AEEC6D2B1B4D1F6E0004F4D4 /* AppDelegate.m in Sources */,
 				AEEC6D281B4D1F6E0004F4D4 /* main.m in Sources */,
-				AEEC6D4E1B4D1FC80004F4D4 /* NavDropDownMenu.m in Sources */,
 				AEEC6D511B4D1FF60004F4D4 /* MainViewController.m in Sources */,
+				AE09C3941B4E0DB000385935 /* NavDropDownMenu.m in Sources */,
 				AEEC6D571B4D20190004F4D4 /* MenuTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +309,7 @@
 				AEEC6D471B4D1F6E0004F4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
